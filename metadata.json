@@ -1,0 +1,6 @@
+{
+  "name": "AEI - Association Excellence & Innovations",
+  "description": "Plateforme mobile et web officielle de l'Association Excellence & Innovations (AEI) - Bâtir aujourd'hui, innover pour demain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

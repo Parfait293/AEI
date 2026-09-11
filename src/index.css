@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  .font-serif-brand {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-signature {
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+/* Custom Gold and Navy Gradient Utilities matching AEI Brand */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #c49a45 0%, #e9ca7a 50%, #9e7228 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #c79a3b 0%, #f3d37a 50%, #b8860b 100%);
+}
+
+.gold-gradient-btn {
+  background: linear-gradient(180deg, #d8a846 0%, #b9861e 100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.gold-gradient-btn:hover {
+  background: linear-gradient(180deg, #e6b955 0%, #c99326 100%);
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.35);
+}
+
+.navy-gradient-bg {
+  background: linear-gradient(180deg, #091a32 0%, #061224 100%);
+}
+
+.navy-hero-gradient {
+  background: linear-gradient(180deg, rgba(8, 26, 50, 0.4) 0%, rgba(8, 26, 50, 0.85) 65%, rgba(6, 18, 36, 0.98) 100%);
+}
+
+/* Custom scrollbar for mobile screens */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.6);
+}
